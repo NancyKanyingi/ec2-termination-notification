@@ -10,6 +10,10 @@ terraform.tfstate.backup
 # Terraform backup files
 *.backup
 
+# Terraform crash logs
+crash.log
+crash.*.log
+
 # Sensitive backup files
 terraform-state-backup.json
 
